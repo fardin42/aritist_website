@@ -1,0 +1,79 @@
+.mailCont{
+    background-color:$blue_light;
+    width: 100%;
+    height: fit-content;
+    border-radius: 3.125rem;
+    .left{
+        .bannerInfo{
+            width: 80%;
+            gap: 2rem;
+        }
+        padding: 4rem;
+        padding-right: 0;
+        hgroup{
+            width: 100%;
+            p{
+                text-wrap: wrap;
+            }
+        }
+        .mailGroup{
+            width: 80%;
+            background-color: $base_white;
+            border-radius: 5rem;
+            border: 1px solid #DAE2EE;
+            form{
+                input{
+                    background-color: transparent;
+                    border: none;
+                    width: 100%;
+                    padding: 1rem;
+                   
+                    border-radius: 5rem;
+                    
+                }
+                button{
+                    background-color: $base_blue;
+                    color: $base_white;
+                    padding: .5rem 2rem;
+                    gap: .5rem;
+                    background: linear-gradient(89.62deg, #0047FF -47.98%, #00C2FF 101.88%);
+
+                    img{
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+    }
+    .right{
+        .blueRect{
+
+            padding: 2rem 0;
+            border-radius: 50px 30px 50px 200px;
+            background: linear-gradient(172.74deg, #0D80D9 4.61%, #0D4282 104.44% );
+
+
+            .banImg{
+                position: relative;
+                .shadows{
+                   
+                    background: radial-gradient(#020931 23.78%, rgba(13, 116, 200, 0) 66.04%);
+                   
+                    width: 205px;
+                    height: 16px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 25%;
+                   
+
+                }
+                width: 395px;
+                img{
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.awarded {
+    max-width: 100%;
+    height: fit-content;
+
+    padding: 5rem 0px 4.625rem;
+    gap: 1rem;
+
+    .wraps {
+        margin-left: 5rem;
+        width: 72%;
+        gap: 1rem;
+
+        .imgGrp {
+            gap: 3rem !important;
+        }
+    }
+
+}

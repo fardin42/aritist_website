@@ -1,0 +1,39 @@
+
+      .meetUp{
+        width: 100%;
+        
+        position: relative;
+        .meetCont{
+            row-gap: 2rem;
+            .wishlist{
+                ul{
+                    gap: 1rem;
+               li{
+                color: $desc_text;
+                display: flex;
+                gap: 1rem;
+                h6{
+                    font-size: 22px;
+                    // line-height: 150% !important;
+                    font-weight: 400;
+                    letter-spacing: -1px;
+                }
+            span{
+                display: inline-block;
+                    width: 25px !important;
+                }
+           
+               }
+                
+                }
+              
+            }
+            .wishlist{
+                ul:nth-child(1) {
+                    li:not(:last-child){
+                    color: black !important;
+                }
+                }
+            }
+        }
+}

@@ -1,0 +1,54 @@
+.carousel{
+  background-color: black;
+}
+
+
+.exibitions{
+
+    padding: 0 30px;
+  
+position: relative;
+hgroup{
+    width: 33%;
+    color: $base_white;
+    h3{
+   
+        margin-bottom: .5rem;
+    }
+    position: relative;
+    top: 34%;
+    z-index: 13;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+}
+.clip{
+    // background: linear-gradient(269.96deg, #044BB5 -1.37%, rgba(169, 193, 230, 0.8) 65.18%, rgba(255, 255, 255, 0) 99.97%);
+    transform: rotateY(180deg);
+    width: 100%;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    object-fit: contain;
+  
+    // -webkit-mask-image: linear-gradient(269.96deg, #044BB5 -1.37%, rgba(169, 193, 230, 0.8) 65.18%, rgba(255, 255, 255, 0) 99.97%);
+    mask-image: linear-gradient(269.96deg, #044BB5 -1.37%, rgb(169 193 230 / 97%) 25%, transparent 99.97%);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+    position: relative;
+  z-index: 11;
+
+    
+
+position: absolute;
+top: 0;
+left: 0;
+}
+.save{
+    width: 104px;
+  position: absolute; 
+  top: 0;
+  left: -9%;
+  z-index: 12;
+}

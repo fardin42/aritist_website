@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: Southam Demo;
+    src: url("/media/fonts/Southam\ Demo.otf");
+}
+
+@font-face {
+    font-family: Mona Sans;
+    src: url("/media/fonts/Mona-Sans.ttf");
+}
+// 64px
+$heading:4rem;
+// 48px
+$sub_heading:3rem;
+// 40px
+$heading_desc:2.5rem;
+// 36px
+$sub_heading_desc:2.25rem;
+$s32:2rem;
+$s26:1.625rem;
+$s24:1.5rem;
+$s18:1.125rem;
+$p:1rem;
+
+
+body{
+    font-family:Mona Sans;
+}
+
+p, address, a {
+   text-wrap:wrap;
+    font-family:Mona Sans;
+    font-size: $s18;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+}
+
+h6 {
+    font-family:Mona Sans;
+    font-size: $s24;
+    font-weight: 500;
+    line-height: 125%;
+}
+h5 {
+    font-family:Mona Sans;
+    font-size: $s26;
+    font-weight: 500;
+    line-height: 125%;
+}
+h4 {
+
+font-family: Mona Sans;
+font-size: $s32;
+font-weight: 500;
+line-height: 125%;
+letter-spacing: -0.04em;
+text-align: left;
+
+}
+h3 {
+    font-family:Mona Sans;
+    font-size: $sub_heading;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -1px;
+}
+h2 {
+    font-family:Mona Sans;
+    font-size: $heading;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+@media (max-width:767.98px) {
+p{
+    font-size: .95rem !important;
+}
+    }

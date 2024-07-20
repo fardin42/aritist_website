@@ -1,0 +1,49 @@
+footer{
+   
+    background-color: #0D4B8F;
+    color: $base_white;
+    // padding: 3rem 0 0;
+    a{
+        color: $base_white !important;
+        font-weight: 300;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    .wall{
+        position: relative;
+        padding: 2rem 0;
+    }
+    p{
+        line-height: 125%;
+        letter-spacing: 1px;
+    }
+}
+.intro{
+
+    height: 100%;
+}
+.collGrp{
+    gap: 1.5rem;
+    .colls{
+        gap: .25rem;
+    }
+}
+.contactgrp{
+    gap: 2rem;
+    .cont{
+       gap: 1rem;
+    }
+}
+.underlined{
+    text-decoration: underline;
+}
+.wallpost{
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+}
+.black_wrap{
+    width: 100%;
+    background-color: $base_black;
+    padding: 1rem 0;
+}

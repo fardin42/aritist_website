@@ -1,0 +1,57 @@
+.banner{
+    margin-bottom: 2rem;;
+    .description{
+        .desc{
+            height: 100%;
+          
+        }
+    }
+    hgroup{
+
+    
+    h3{
+        width: 62%;
+        margin-bottom: .5rem;
+    }
+    p{
+        width: 75%;
+    }
+}
+.purple_patch{
+    background-color: #ce44ff;
+    width: 6.25rem;
+    height: 6.25rem;
+    // border-radius: 50%;
+    filter: blur(3rem);
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+
+}
+}
+.stars{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    transform: rotate(90deg);
+ .one{
+width: 3.125rem;
+
+}
+.two{
+width: 1.563rem;
+}
+}
+.small_brdr{
+  
+   
+    padding: 1rem;
+    border: 1px solid $base_light;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.more{
+    margin: 3rem 0;
+}

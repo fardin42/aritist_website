@@ -1,0 +1,22 @@
+
+@import "partials/reset";
+
+@import "utility/color";
+@import "utility/fonts";
+@import "utility/spacing";
+
+
+
+@import "partials/common";
+@import "components/nav";
+@import "components/header";
+@import "components/buttons/btn";
+@import "components/awarded";
+@import "components/aboutMe";
+@import "components/paintingBanner";
+@import "components/exibitions";
+@import "components/meetUp";
+
+@import "components/cardCont";
+@import "components/mailCont";
+@import "components/footer";

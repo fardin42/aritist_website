@@ -1,0 +1,90 @@
+.bg-blue{
+  
+    background: linear-gradient(180deg, #044BB5 51.27%, #FFFFFF 90%);
+ 
+    border-radius: 4rem 4rem 0 ;
+    // height: 100%;
+    overflow: hidden;
+    .worth{
+        margin: 4rem auto;
+        .box{
+            text-align: center;
+            gap: .5rem;
+            .square{
+                width: 133px;
+                width: 124px;
+              text-align: center;
+                padding: 2rem 1.5rem;
+                border-radius: 2rem;
+                background-color: $base_white;
+            }
+        }
+    }
+}
+
+.object{
+    background: transparent url("/media/svg/objects.svg") no-repeat center top;
+
+    height: 100%;
+
+padding: 1rem;
+   
+ 
+
+}
+.about_me{
+background-color: $base_white;
+border-radius: 3rem;
+gap: 2rem;
+width:100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    .artistInfo{
+        gap: 1.5rem;
+      .artistDesc{
+        
+        hgroup{
+            padding: .25rem 0;
+        h6{
+            font-size: $s18;
+           color: $base_blue;
+           margin-bottom: .25rem;
+        }
+        h3{
+            font-size: $heading_desc;
+            margin-bottom: .5rem;
+        }
+    }
+        p{
+            color: $desc_text;
+        }
+      }
+    }
+    .expert{
+        .exp{
+            h5{
+                font-family: "Kalam", cursive;
+                color: #080DCC;
+            }
+            margin-bottom: .75rem;
+        }
+       .expertIn{
+       row-gap: 1.5rem;
+       column-gap:2rem;
+        .OPT{
+            gap: .5rem;
+        }
+       }
+    }
+}
+.data::after{
+    content: "+";
+    }
+.data.three::after{
+content: "k";
+}
+.purple_patch{
+    z-index: -1;
+    border-radius: 50%;
+}

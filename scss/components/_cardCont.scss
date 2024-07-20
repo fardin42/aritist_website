@@ -1,0 +1,68 @@
+.blogCont{
+    gap: 1.5rem;
+    .card{
+        border: none;
+        overflow: hidden;
+        
+        border-radius: 1rem;
+        padding: .5rem;
+        
+        gap: 1rem;
+        .cardImg{
+            border-radius: 1rem;
+            overflow: hidden;
+            z-index: 1;
+        }
+      
+        .cardInfo{
+            z-index: 1;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+            h5{
+                font-size: 1.5rem;
+                max-width: 80%;
+                color: $base_black;
+                font-weight: 500;
+            }
+            h6{
+                font-size: 1rem;
+                color: black;
+            }
+        }
+    }
+}
+
+.cardCont_head{
+    hgroup{
+        gap: 1rem;
+        h3{
+           overflow: hidden;
+            background: linear-gradient(90deg, #0B50B7 0%, #0085FF 100%);
+
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+        p{
+            color: $desc_text;
+        }
+    }
+}
+#blueHeading{
+    span{
+        display: inline-block !important;
+    }
+}
+.smallCircle{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #ce44ff;
+   left: -5%;
+ bottom: -5%;
+   
+
+}

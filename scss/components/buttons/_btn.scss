@@ -1,0 +1,16 @@
+.curvedBtn{
+    border-radius: 2rem .8rem  ;
+    padding: 1.5rem 3rem ;
+    font-size: 1.25rem;
+    text-wrap: nowrap;
+    border: 1px solid $base_blue;
+    color: $base_blue;
+}
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.black{
+    background-color: $base_black;
+    color: $base_white;
+}
