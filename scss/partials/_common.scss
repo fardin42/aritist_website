@@ -89,3 +89,7 @@ section, footer{
 	stroke-dashoffset: 1000;
 	/* animation: dash 5s linear alternate infinite; */
   }
+  .pause{
+	position: relative;
+	z-index: 1;
+  }

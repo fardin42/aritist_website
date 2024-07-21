@@ -1,3 +1,5 @@
+// //////////  HEADER ARIVAL ANIMETION  //////////// //
+
 let tl = gsap.timeline()
 
 tl.to(".blank", {
@@ -49,11 +51,9 @@ tl.from(".wallpaper .bigText", {
     ease: "slow(0.7,0.7,false)",
 },)
 
-
-
 tl.to(".autograph__path", {
     "stroke-dashoffset": 0,
-    //   delay:.5,
+
     ease: "none",
 
     stagger: 0.15,
@@ -61,7 +61,9 @@ tl.to(".autograph__path", {
     yoyo: true,
 
 });
+// //////////  HEADER ARIVAL ANIMETION END  //////////// //
 
+// ////////// WISHLIST TO MEET PEOPLE ANIMETION  //////////// //
 
 gsap.from(".wishlist ul li", {
     x: -100,
@@ -79,8 +81,7 @@ gsap.from(".wishlist ul li", {
     transformOrigin: "left center",
     ease: "none"
 });
-
-
+// ////////// WISHLIST TO MEET PEOPLE ANIMETION END  //////////// //
 
 //   ==============    COUNTER   ============= //
 
@@ -91,7 +92,6 @@ gsap.from(items, {
     ease: Power1.easeIn,
     snap: { textContent: 1 },
     delay:.5,
-    // stagger: .5,
     scrollTrigger: {
         trigger: ".worth",
         start: "top 80%",
@@ -100,6 +100,11 @@ gsap.from(items, {
     },
 
 });
+
+//   ==============    COUNTER END   ============= //
+
+
+
 const imgGrp = document.querySelectorAll(".imgGrp div");
 gsap.from(imgGrp, {
     x: 200,
@@ -110,21 +115,12 @@ gsap.from(imgGrp, {
     scrollTrigger: {
         trigger: ".awarded",
         start: "top 80%",
-        end: "top top",
+      
 
     },
 
 });
 
-let sticks = gsap.timeline()
-sticks.to(".stick", {
-    height: "100%",
-
-    duration: .5,
-    stagger: 0.1,
-    repeat: -1,
-    opacity: 0,
-})
 
 
 // /////////  ABOUT ME  ////////// //
@@ -139,13 +135,16 @@ gsap.from(".about_me " , {
 
 scrollTrigger: {
             trigger: ".about_me",
-    
-            start: "top 30%",
-            // end: "top top",
+
+            start: "top 20%",
+     
     
         },
 })
-// artist image and experties
+
+
+// ////////// artist image and experties //////////// //
+
 gsap.from(".about_me .artistImg" , {
 
     duration:1,
@@ -176,18 +175,41 @@ gsap.from(".about_me .artistImg" , {
               trigger: ".about_me",
       
               start: "top 50%",
-              // end: "top top",
+     
       
           },
   })
 
-//   more paintings
+
+  gsap.from(".OPT" , {
+    x:200,
+      scale:0,
+    
+        delay:3.5,
+        duration:2,
+        stagger:.5,
+    
+      
+        ease: "expo.out",
+      
+      scrollTrigger: {
+                  trigger: ".about_me",
+          
+                  start: "top 80%",
+                 
+          
+              },
+      })
+  // ////////// artist image and experties END  //////////// //
+
+
+  // /////////  more paintings  ////////// //
+//   
   gsap.from(".paintsImg img" , {
 
-    // x:"-100%",
     y:"110%",
 rotate:-90,
-    // delay:1.5,
+   
     stagger:.5,
   
     ease: "slow(0.7,0.7,false)",
@@ -196,28 +218,8 @@ rotate:-90,
               trigger: "#cardCont",
       
               start: "top 50%",
-              // end: "top top",
+              
       
           },
   })
 
-  gsap.from(".OPT" , {
-x:200,
-  scale:0,
-
-    delay:2.5,
-    duration:2,
-    stagger:.5,
-    // yoyo:true,
-    // repeat:-1,
-  
-    ease: "expo.out",
-  
-  scrollTrigger: {
-              trigger: ".about_me",
-      
-              start: "top 80%",
-              // end: "top top",
-      
-          },
-  })
