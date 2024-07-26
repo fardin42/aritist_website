@@ -37,6 +37,7 @@ card.map((value, index) => {
                 
         <div class="small_brdr paintsImg  cardEdits">
         <img src="${value.src}" alt="${value.alt}">
+         </div>
         </div>
 
           
