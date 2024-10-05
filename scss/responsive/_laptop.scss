@@ -6,4 +6,39 @@
         order: 2;
         margin-bottom: 1rem;
     }
+
+
+    .item {
+
+        // &:nth-child(5) { left: calc(2% + 720px); opacity: 0;}
+          &:nth-child(5) {
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            transform: none !important;
+            border-radius: 0;
+            box-shadow: none;
+            opacity: 1;
+            z-index: 9 !important;
+          }
+    }
+    .wrapper{
+        bottom:50%;
+        transform: translateY(50%);
+        h6{
+            padding-bottom: 12px;
+        }
+    }
+    .navbar-nav {
+        height: 12rem;
+        gap: 0 !important;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    // #navbarNavAltMarkup{
+    //     position: ;
+    // }
+   
 }

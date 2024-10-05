@@ -3,6 +3,7 @@ gsap.registerPlugin(ScrollTrigger);
 const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
+    // lerp:0.1,
     smartphone:{
         smooth:true,
         
@@ -42,3 +43,5 @@ ScrollTrigger.defaults({ scroller: "[data-scroll-container]" });
 //         start:"top 50%"
 //     }
 // })
+
+

@@ -64,7 +64,10 @@ blog.map((value, index) => {
     div.classList.add("card")
     div.classList.add("flex-column")
     div.classList.add("col-xl-3")
-    div.classList.add("col-lg-3")
+    div.classList.add("col-lg-5")
+    div.classList.add("col-md-8")
+   
+    div.classList.add("col-12")
     div.classList.add("d-flex")
     div.classList.add("cardEdits")
     

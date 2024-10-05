@@ -2,7 +2,9 @@
     background-color:$blue_light;
     width: 100%;
     height: fit-content;
+    padding: 0;
     border-radius: 3.125rem;
+    overflow: hidden;
     .left{
         .bannerInfo{
             width: 80%;

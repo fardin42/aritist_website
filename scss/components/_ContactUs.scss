@@ -1,0 +1,131 @@
+#contactUs {
+    display: block !important;
+    .map{
+        border-radius: 16px;
+       
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        overflow: hidden;
+       
+       
+    }
+
+    .contactUS {
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+        .blueStick{
+          
+            border: 2px solid #0038C9;
+            width: 0;
+            border-radius: 16px;
+        }
+
+        .ContactForm {
+      
+            // border: 5px solid #0038C9;
+            // border-width: 2px 5px 5px 2px;
+
+            // border-radius: 30px;
+
+            
+            row-gap: 2rem;
+            hgroup {
+
+                h3 {
+                    /* Get In Touch */
+                    background: linear-gradient(180deg, #0038C9 0%, #0094FF 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+
+                }
+            }
+            .contForm{
+                row-gap: 2rem;
+                label{
+                    font-weight: 600;
+                    color: #767676;
+                    // &:hover{
+                    //     color: #0038C9;
+                    // }
+
+               
+                }
+                .group{
+                   
+                    .inp{
+
+                        width: 47%;
+                        &:hover{
+                            label{
+                                color: #0038C9;
+                                transition-duration: 500ms;
+                            }
+                        }
+                    }
+                    .fullName{
+                        width: 100%;
+                        &:hover{
+                            label{
+                                color: #0038C9;
+                                transition-duration: 500ms;
+                            }
+                        }
+                    }
+                    padding: .75rem;
+                    input{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 3px solid #cfcfcf;
+                        background-color: rgb(221 221 221 / 19%);
+                        padding-bottom: 1rem;
+                        outline: none;
+                        &:focus{
+                            border-color: #0038C9;
+                            transition-duration: 500ms;
+                        }
+                    }
+                }
+                .textArea{
+                    textarea{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 3px solid #cfcfcf;
+                            background-color: rgb(221 221 221 / 19%);
+                        padding-bottom: .5rem;
+                        outline: none;
+                        &:focus{
+                            border-color: #0038C9;
+                            transition-duration: 500ms;
+                     
+                    }
+                }
+             
+               
+            }
+        }
+    }
+}
+}
+.formbtn{
+
+    .blueBtn{
+        min-width: 12rem;
+        background-color: #044bb5;
+        color: #fff;
+        font-weight: 600;
+        padding: 1rem 2rem;
+        gap: .5rem;
+        background: linear-gradient(89.62deg, #0047FF -47.98%, #00C2FF 101.88%);
+        transition-property: scale; 
+        transition-duration: 100ms; 
+        transition-timing-function: ease-out;
+        &:active{
+        
+          
+            scale: .95;
+            
+        }
+
+    }
+}

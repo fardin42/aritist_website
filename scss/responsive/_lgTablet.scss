@@ -12,4 +12,65 @@
 .about_me{
     flex-direction: column !important;
 } 
+
+.exibitions{
+    hgroup{
+        width: 60% !important;
+    }
+}
+
+.mailCont{
+    .mailGroup{
+        width: 100% !important;
+        form{
+            .btn{
+                padding: .25rem .75rem !important;
+                font-size: .9rem !important;
+            }
+        }
+  
+    }
+    .left{
+
+        padding: 3rem 0 !important;
+        p{
+        text-align: center;
+        
+        }
+    }
+    .right{
+        .blueRect{
+            border-radius: 2rem 2rem 0 0;
+        }
+    }
+
+}
+footer{
+    .left{
+        gap: 1rem;
+    }
+    .intro{
+        height:fit-content !important;
+        gap: .5rem;
+    }
+    .dev{
+        margin-bottom: .75rem;
+    }
+    .black_wrap{
+        p{
+            text-align: center !important;
+        }
+    }
+
+}
+.map{
+    height: 25rem;
+}
+.contactUS{
+    gap: 2rem;
+    .blueStick{
+        height: 0;
+        width: 100%!important;
+    }
+}
 }

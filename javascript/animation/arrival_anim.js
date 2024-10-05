@@ -8,12 +8,15 @@ tl.to(".blank", {
     duration: 1,
     ease: "ease.out"
 
-})
+},"blue")
 tl.from(".logo", {
-    y: 100,
+    delay:1.5,
+    y: -100,
     duration: 1,
-    ease: "expo.out"
-})
+    ease: "expo.out",
+    opacity:0,
+    
+},"blue")
 tl.from(".nav-left", {
     x: 400,
     duration: 1.25,
@@ -166,8 +169,8 @@ gsap.from(".about_me .artistImg" , {
   gsap.from(".about_me .artistInfo " , {
 
     duration:1,
-    delay:1.5,
-    stagger:.5,
+    delay:2,
+    // stagger:.5,
     opacity:0,
     ease: "slow(0.7,0.7,false)",
   
@@ -185,8 +188,8 @@ gsap.from(".about_me .artistImg" , {
     x:200,
       scale:0,
     
-        delay:3.5,
-        duration:2,
+        delay:3,
+        duration:1.5,
         stagger:.5,
     
       
@@ -195,7 +198,7 @@ gsap.from(".about_me .artistImg" , {
       scrollTrigger: {
                   trigger: ".about_me",
           
-                  start: "top 80%",
+                  start: "top 50%",
                  
           
               },
@@ -206,9 +209,9 @@ gsap.from(".about_me .artistImg" , {
   // /////////  more paintings  ////////// //
 //   
   gsap.from(".paintsImg img" , {
-
+    scale:0,
     y:"110%",
-rotate:-90,
+// rotate:-90,
    
     stagger:.5,
   
@@ -222,4 +225,16 @@ rotate:-90,
       
           },
   })
+gsap.from(".blueStick",{
+    y:"-100%",
+    duration:2,
+    ease:"Power1.out",
+    scrollTrigger: {
+        trigger: ".contactUS",
 
+        start: "top center",
+       
+        
+
+    },
+})

@@ -2,8 +2,8 @@ let wallpaper = document.querySelector("#wallpaper");
 let globe = document.querySelector("#globe")
 wallpaper.addEventListener("mousemove", function (dex){
     gsap.to(globe, {
-        y:dex.y ,
-        x:dex.x ,
+        y:dex.y - 180,
+        x:dex.x - 120,
         duration:1.5,
         ease: "back.out",
     })

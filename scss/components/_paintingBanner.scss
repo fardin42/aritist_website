@@ -1,5 +1,6 @@
 .banner{
     margin-bottom: 2rem;;
+    row-gap: 1rem;
     .description{
         .desc{
             height: 100%;
@@ -15,6 +16,7 @@
     }
     p{
         width: 75%;
+        margin-bottom: 1rem; 
     }
 }
 .purple_patch{
@@ -51,7 +53,16 @@ width: 1.563rem;
     position: relative;
     overflow: hidden;
 }
-
+#cardCont{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 1rem;
+}
 .more{
     margin: 3rem 0;
+}
+.temple{
+    img{
+        aspect-ratio: 3/2;
+    }
 }

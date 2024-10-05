@@ -25,6 +25,38 @@ $s18:1.125rem;
 $p:1rem;
 
 
+@media (max-width:1399.98px) {
+
+    
+    h3 {
+        font-size: $heading_desc !important;
+    }
+
+}
+@media (max-width:575.98px) {
+    h3 {
+        font-size: $s32!important;
+    }
+    h6{
+        font-size: $s18!important; 
+    }
+    p,a{
+        font-size: .9rem !important;
+    }
+}
+
+h6 {
+    font-family:Mona Sans;
+    font-size: $s24 ;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+
+
+
+
+
 body{
     font-family:Mona Sans;
 }

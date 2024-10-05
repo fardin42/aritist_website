@@ -1,5 +1,30 @@
 @media (max-width:1399.98px) {
+
+    
 .drop{
     display: none;
+}
+.description{
+    
+h3{
+    width: 80% !important;
+    
+}
+p{
+    margin-bottom: .75rem !important;
+    span{
+        display: none;
+    }
+}
+p::after{
+    font-weight: 600;
+content: "Read more...";
+}
+
+}
+.temple{
+ img {
+    aspect-ratio: 1/1;
+}
 }
 }

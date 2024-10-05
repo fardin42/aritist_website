@@ -1,4 +1,5 @@
 @media (max-width:575.98px) {
+
     .patch {
         width: 100%!important;
     
@@ -10,4 +11,38 @@
             
         }
     }
+    .exibitions{
+        hgroup{
+            width: 100% !important;
+        }
     }
+    .awarded{
+        .wraps {
+            h4{
+                margin-left: 1rem;
+            }
+            margin: 0  !important;
+          width: 100% !important;
+        }
+    }
+.spegetty{
+    svg{
+        width: 300px !important;
+    }
+}
+.bigText{
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+}
+
+.radioGrp{
+    gap: .75rem;
+    justify-content: flex-start !important;
+}
+.inp{
+width: 100% !important;
+}
+
+    }
+

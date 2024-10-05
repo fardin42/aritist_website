@@ -1,8 +1,18 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	overflow-x: hidden;
+	overflow: hidden;
+	scrollbar-color: $base_blue;
+	
 }
+html, .has-scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+[data-scroll-container] {
+    perspective: 1px;
+}
+
 
 main {
 	width: 100%;
@@ -27,11 +37,11 @@ section, footer{
 }
 .section {
 	width: 100%;
-	height: 100%;
+	height: calc(100vh - 85px);
 }
 
 ::-webkit-scrollbar {
-	display: none;
+	display: block;
 }
 
 .msec {
@@ -81,6 +91,7 @@ section, footer{
 	opacity: 0;
 	transition: opacity 2s;
 }
+
 .opct{
 	opacity: 1;
 }
@@ -93,3 +104,13 @@ section, footer{
 	position: relative;
 	z-index: 1;
   }
+
+  .round_brdr{
+	border-radius: 1rem;
+	overflow: hidden;
+	aspect-ratio: 1/1;
+  }
+.no_content{
+	height: 5rem;
+	width: 100%;
+}

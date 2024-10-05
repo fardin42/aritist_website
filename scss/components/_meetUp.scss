@@ -29,6 +29,7 @@
               
             }
             .wishlist{
+                row-gap: 2rem;
                 ul:nth-child(1) {
                     li:not(:last-child){
                     color: black !important;

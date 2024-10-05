@@ -91,7 +91,7 @@ for (let i = 0; i < hoverCard.length; i++) {
  let hCard = hoverCard[i]
 let dot = hoverCardDot[i]
  hCard.addEventListener("mouseenter", function () {
-    console.log("hey");
+   
     gsap.to(dot, {
     scale:1.2,
         duration:1,

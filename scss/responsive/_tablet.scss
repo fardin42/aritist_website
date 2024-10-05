@@ -10,4 +10,29 @@
             
         }
     }
+    .item{
+        &:nth-child(4) {
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            transform: none !important;
+            border-radius: 0;
+            box-shadow: none;
+            opacity: 1;
+            z-index: 9 !important;
+          }
     }
+    .grpImg{
+        &:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)){
+            display: none !important;
+        }
+    }
+    .card{
+        &:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)){
+            display: none !important;
+        }
+    }
+   
+   
+}

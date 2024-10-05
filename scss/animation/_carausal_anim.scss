@@ -37,7 +37,7 @@
             &:nth-child(3) { left: 2%; z-index: 12; }
             &:nth-child(4) { left: calc(2% + 360px); z-index: 12; }
             &:nth-child(5) { left: calc(2% + 720px);  z-index: 12; }
-            &:nth-child(6) { left: calc(2% + 660px); opacity: 0; z-index: 12; }
+            // &:nth-child(6) { left: calc(2% + 660px); opacity: 0; z-index: 12; }
           }
     }
 
@@ -45,39 +45,30 @@
   }
   
  
-//   .content {
-//     width: min(30vw,400px);
-//     position: absolute;
-//     top: 50%;
-//     left: 3rem;
-//     transform: translateY(-50%);
-//     font: 400 0.85rem helvetica,sans-serif;
-//     color: white;
-//     text-shadow: 0 3px 8px rgba(0,0,0,0.5);
-//     opacity: 0;
-//     display: none;
+  .content {
+    width: min(30vw,400px);
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+    transform: translateY(-50%);
+    font: 400 0.85rem helvetica,sans-serif;
+    color: white;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.5);
   
-//     & .title {
-//       font-family: 'arial-black';
-//       text-transform: uppercase;
-//     }
+ 
   
-//     & .description {
-//       line-height: 1.7;
-//       margin: 1rem 0 1.5rem;
-//       font-size: 0.8rem;
-//     }
+    & .title {
+      font-family: 'arial-black';
+      text-transform: uppercase;
+    }
   
-//     & button {
-//       width: fit-content;
-//       background-color: rgba(0,0,0,0.1);
-//       color: white;
-//       border: 2px solid white;
-//       border-radius: 0.25rem;
-//       padding: 0.75rem;
-//       cursor: pointer;
-//     }
-//   }
+    & .description {
+      line-height: 1.7;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.8rem;
+    }
+  
+  }
   
   .item:nth-of-type(2) .content {
     display: block;
@@ -134,7 +125,7 @@
       &:nth-child(3) { left: 50%; }
       &:nth-child(4) { left: calc(50% + 170px); }
       &:nth-child(5) { left: calc(50% + 340px); }
-      &:nth-child(6) { left: calc(50% + 510px); opacity: 0; }
+      
     }
   }
   
@@ -151,7 +142,7 @@
       &:nth-child(3) { left: 50%; }
       &:nth-child(4) { left: calc(50% + 140px); }
       &:nth-child(5) { left: calc(50% + 280px); }
-      &:nth-child(6) { left: calc(50% + 420px); opacity: 0; }
+ 
     }
   }
   .carousel{
