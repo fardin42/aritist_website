@@ -26,28 +26,28 @@ let card = [
     {
         type:"landscape",
         alt:"tree",
-        src:"/media/jpg/nil1.jpg"
+        src:"media/jpg/nil1.jpg"
 
     },
     {
         type:"landscape",
         alt:"temple scenario",
-        src:"/media/jpg/p3.jpeg"
+        src:"media/jpg/p3.jpeg"
     },
     {
         type:"landscape",
         alt:"mountain scenario",
-        src:"/media/jpg/p4.jpg"
+        src:"media/jpg/p4.jpg"
     },
     {
         type:"landscape",
         alt:"beautiful temple",
-        src:"/media/jpg/p5.jpg"
+        src:"media/jpg/p5.jpg"
     },
     {
         type:"landscape",
         alt:"foggy",
-        src:"/media/png/temple.png"
+        src:"media/png/temple.png"
     },
 
 ]

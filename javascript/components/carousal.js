@@ -3,32 +3,32 @@ let carousal = ()=>{
         {
             h3:"Lorem ipusm is dummy text 1",
 
-            src:"/media/png/exebition_2.png",
+            src:"media/png/exebition_2.png",
             alt:1,
     
         },
         {
         
        
-            src:"/media/png/exebition_1.png",
+            src:"media/png/exebition_1.png",
             alt:2,
     
         },
         {
 
-            src:"/media/png/exebition_3.png",
+            src:"media/png/exebition_3.png",
             alt:3,
     
         },
         {
             
-            src:"/media/png/exebition_4.png",
+            src:"media/png/exebition_4.png",
             alt:4,
     
         },
         {
 
-            src:"/media/png/group_exebition.png",
+            src:"media/png/group_exebition.png",
             alt:5,
     
         },
