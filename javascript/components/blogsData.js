@@ -11,7 +11,7 @@ let blog = [
     {
         
         alt:"group_exebition",
-        src:"/media/png/group_exebition.png",
+        src:"media/png/group_exebition.png",
         header:"Exhibition at Jahangir Art Gallery Mumbai.",
         date:"19th Jan, Mumbai",
         p:"Lorem ipsum dolor sit amet consectetur. Cursus ultricies ut ipsum lacinia molestie sagittis. At ut risus lectus amet faucibus. Magna luctus............."
@@ -20,7 +20,7 @@ let blog = [
     {
         
         alt:"group_image",
-        src:"/media/png/bombayArt_award.png",
+        src:"media/png/bombayArt_award.png",
         header:"Receiving Bombay Art Society First-Award.",
         date:"19th Jan, Mumbai",
         p:"Lorem ipsum dolor sit amet consectetur. Cursus ultricies ut ipsum lacinia molestie sagittis. At ut risus lectus amet faucibus. Magna luctus............."
@@ -38,7 +38,7 @@ let blog = [
     {
         
         alt:"group_exebition",
-        src:"/media/png/group_exebition.png",
+        src:"media/png/group_exebition.png",
         header:"Exhibition at Jahangir Art Gallery Mumbai.",
         date:"19th Jan, Mumbai",
         p:"Lorem ipsum dolor sit amet consectetur. Cursus ultricies ut ipsum lacinia molestie sagittis. At ut risus lectus amet faucibus. Magna luctus............."
@@ -47,7 +47,7 @@ let blog = [
     {
         
         alt:"group_image",
-        src:"/media/png/bombayArt_award.png",
+        src:"media/png/bombayArt_award.png",
         header:"Receiving Bombay Art Society First-Award.",
         date:"19th Jan, Mumbai",
         p:"Lorem ipsum dolor sit amet consectetur. Cursus ultricies ut ipsum lacinia molestie sagittis. At ut risus lectus amet faucibus. Magna luctus............."
